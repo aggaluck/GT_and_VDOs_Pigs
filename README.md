@@ -7,7 +7,7 @@ The **GT_and_VDOs_Pigs** folder contains four datasets (Videos 1-4), which serve
 
 Each test video contained 5,000 continuous frames, taken from a top-view camera over a pen. There are ten pigs in each video frame. Videos 1-3 were captured in the morning, midday, and evening, respectively. The pig, pen, and camera setup in videos 1-3 were the same as those in the videos used in training the Faster region-based convolutional neural network (Faster R-CNN) model in the paper. Video 4 had a different camera setup, pen, and pigs from the video used in training the Faster R-CNN model. Videos 1-3 were taken from an environment familiar to the pig detection model, while video 4 was not. Videos 1-4 tested the abilities of the detection and tracking methods under various conditions.
 
-Each ground truth file contains the bounding boxes over the pigs’ heads and bodies for ten frames, down sampled from 5,000 continuous frames of the corresponding test video. Ground truth files were presented in the CSV file format. The files are GT_VDO1.csv, GT_VDO2.csv, GT_VDO3.csv, and GT_VDO4.csv, which are for the test videos 1-4, respectively. Columns of each CSV and their descriptions are as follows:
+Each ground truth file contains the bounding boxes over the pigs’ heads and bodies for ten frames, down sampled from 5,000 continuous frames of the corresponding test video. Ground truth files were presented in the **CSV** file format. The files are **GT_VDO1.csv, GT_VDO2.csv, GT_VDO3.csv,** and **GT_VDO4**.csv, which are for the test videos 1-4, respectively. Columns of each CSV and their descriptions are as follows:
 
 •	_**VDO_frame**_ : The frame number in the corresponding test video.
 
