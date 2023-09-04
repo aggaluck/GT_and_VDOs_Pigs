@@ -9,10 +9,15 @@ Each test video contained 5,000 continuous frames, taken from a top-view camera 
 Each ground truth file contains the bounding boxes over the pigs’ heads and bodies for ten frames, down sampled from 5,000 continuous frames of the corresponding test video. Ground truth files were presented in the CSV file format. The files are GT_VDO1.csv, GT_VDO2.csv, GT_VDO3.csv, and GT_VDO4.csv, which are for the test videos 1-4, respectively. Columns of each CSV and their descriptions are as follows:
 
 •	_**VDO_frame**_ : The frame number in the corresponding test video.
+
 •	_**pigID**_ : A unique identification of each pig. In a given CSV file, pigs that appear in different VDO frames but have the same pigID are the same pig.
+
 •	_**(head_xmin, head_ymin)**_ : The point on the upper-left corner of the bounding box over the  head of the pig, whose unique identification is pigID.
+
 •	_**(head_xmax, head_ymax)**_ : The point on the lower-right corner of the bounding box over the  head of the pig, whose unique identification is pigID.
+
 •	_**(body_xmin, body_ymin)**_ : The point on the upper-left corner of the bounding box over the  body of the pig, whose unique identification is pigID.
+
 •	_**(body_xmax, body_ymax)**_ : The point on the lower-right corner of the bounding box over the  body of the pig, whose unique identification is pigID.
 
 Each ground truth file provides the actual locations of the bounding boxes over the head and body of each pig.
