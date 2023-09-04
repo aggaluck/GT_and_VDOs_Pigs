@@ -8,4 +8,4 @@ Each test video contained 5,000 continuous frames, taken from a top-view camera 
 
 Each ground truth file contains the bounding boxes over the pigs’ heads and bodies for ten frames, down sampled from 5,000 continuous frames of the corresponding test video. Ground truth files were presented in the CSV file format. The files are GT_VDO1.csv, GT_VDO2.csv, GT_VDO3.csv, and GT_VDO4.csv, which are for the test videos 1-4, respectively. Columns of each CSV and their descriptions are as follows:
 
-•	**VDO_frame** : The frame number in the corresponding test video 
+•	_**VDO_frame**_ : The frame number in the corresponding test video 
