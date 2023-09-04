@@ -1,7 +1,7 @@
 # Test Datasets for Individual Pig Tracking 
 This repository contains the test datasets used in the paper.
 
-A. Jaoukaew, W. Suwansantisuk, P. Kumhom, **“Robust individual pig tracking”**, International Journal of Electrical and Computer Engineering, Accepted for publication.
+**A. Jaoukaew, W. Suwansantisuk, P. Kumhom, **“Robust individual pig tracking”**, International Journal of Electrical and Computer Engineering, Accepted for publication.**
 ## Please cite the above paper if you use the datasets in this repository.
 The **GT_and_VDOs_Pigs** folder contains four datasets (Videos 1-4), which serve to evaluate the methods of pig’s  identification and tracking. It also contains the corresponding ground truth files, which specify actual bounding boxes over the head and body of each pig.
 
