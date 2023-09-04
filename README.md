@@ -3,7 +3,7 @@
 
 **A. Jaoukaew, W. Suwansantisuk, P. Kumhom, **“Robust individual pig tracking”**, _International Journal of Electrical and Computer Engineering_, Accepted for publication.**
 ### Please cite the above paper if you use the datasets in this repository.
-The _GT_and_VDOs_Pigs_ folder contains four datasets (Videos 1-4), which serve to evaluate the methods of pig’s  identification and tracking. It also contains the corresponding ground truth files, which specify actual bounding boxes over the head and body of each pig.
+The _**GT_and_VDOs_Pigs**_ folder contains four datasets (Videos 1-4), which serve to evaluate the methods of pig’s  identification and tracking. It also contains the corresponding ground truth files, which specify actual bounding boxes over the head and body of each pig.
 
 Each test video contained 5,000 continuous frames, taken from a top-view camera over a pen. There are ten pigs in each video frame. Videos 1-3 were captured in the morning, midday, and evening, respectively. The pig, pen, and camera setup in videos 1-3 were the same as those in the videos used in training the Faster region-based convolutional neural network (Faster R-CNN) model in the paper. Video 4 had a different camera setup, pen, and pigs from the video used in training the Faster R-CNN model. Videos 1-3 were taken from an environment familiar to the pig detection model, while video 4 was not. Videos 1-4 tested the abilities of the detection and tracking methods under various conditions.
 
